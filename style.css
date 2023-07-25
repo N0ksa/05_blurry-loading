@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bcgImg{
+ background-image: url(https://picsum.photos/3840/2160);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ filter:blur(0px);
+
+ position: absolute;
+ top: -20px;
+ left: -20px;
+ width: calc(100vw + 40px);
+ height: calc(100vh + 40px);
+
+ z-index: -1;
+}
+
+.loadingText{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
